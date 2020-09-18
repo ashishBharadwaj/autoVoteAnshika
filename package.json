@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/ashishBharadwaj/autoVoteAnshika#readme",
   "dependencies": {
-    "axios": "^0.20.0",
     "chrome-launcher": "^0.13.4",
     "chrome-remote-interface": "^0.28.2"
   }
