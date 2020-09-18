@@ -18,7 +18,7 @@ Automatically vote in MyCuteBaby photo contest
 $ npm install
 ```
 
-- Start application 
+- Start script
 
 ```bash
 $ npm start
