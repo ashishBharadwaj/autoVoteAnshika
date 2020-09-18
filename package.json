@@ -1,0 +1,24 @@
+{
+  "name": "autovoteanshika",
+  "version": "1.0.0",
+  "description": "Automatically vote in MyCuteBaby photo contest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashishBharadwaj/autoVoteAnshika.git"
+  },
+  "author": "Ashish Bharadwaj J",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashishBharadwaj/autoVoteAnshika/issues"
+  },
+  "homepage": "https://github.com/ashishBharadwaj/autoVoteAnshika#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "chrome-launcher": "^0.13.4",
+    "chrome-remote-interface": "^0.28.2"
+  }
+}
