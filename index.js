@@ -15,7 +15,7 @@ async function init(url){
     const chrome = await launchChrome(false);
     while(true){
         await navigate(chrome, url);        
-        await sleep(1800000);
+        await sleep(1920000);
     }
     
 }
