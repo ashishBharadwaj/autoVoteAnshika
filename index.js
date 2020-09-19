@@ -12,10 +12,12 @@ init(`http://mycutebaby.in/contest/participant/?n=5f60434bef20c&utm_source=wsapp
 
 async function init(url){
 
-    const chrome = await launchChrome(false);
+    
     while(true){
+        const chrome = await launchChrome(false);
         await navigate(chrome, url);        
         await sleep(1920000);
+        chrome.kill();
     }
     
 }
