@@ -15,11 +15,11 @@ Automatically vote in MyCuteBaby photo contest
 - Install the dependencies:
 
 ```bash
-$ npm install
+  $ npm install
 ```
 
 - Start script
 
 ```bash
-$ npm start
+  $ npm start
 ```
