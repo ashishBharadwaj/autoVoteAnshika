@@ -15,9 +15,10 @@ async function init(url){
     
     while(true){
         const chrome = await launchChrome(false);
-        await navigate(chrome, url);        
-        await sleep(1920000);
-        chrome.kill();
+        await navigate(chrome, url);
+        await sleep(10000);
+        chrome.kill();        
+        await sleep(1800000);
     }
     
 }
